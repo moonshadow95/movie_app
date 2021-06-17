@@ -1,0 +1,35 @@
+.movie {
+  background-color: #fff;
+  display: flex;
+  width: 50em;
+  margin: 2em;
+  box-shadow: 0px 6px 15px 6px rgba(0, 0, 0, 0.15);
+}
+
+.poster {
+  flex-basis: 20%;
+  margin: 2em 2em 0 2em;
+  transform: translateY(-4em);
+  box-shadow: 0px 6px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.data {
+  flex-basis: 80%;
+  margin-right: 2em;
+}
+
+.title {
+  font-size: 1.6rem;
+}
+
+.year {
+  margin: 0.4em 0;
+}
+
+.genres {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1em;
+}
