@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/moonshadow95/movie_app/static/css/main.5c2ecc4f.chunk.css",
+    "main.js": "/moonshadow95/movie_app/static/js/main.26994bc7.chunk.js",
+    "main.js.map": "/moonshadow95/movie_app/static/js/main.26994bc7.chunk.js.map",
+    "runtime-main.js": "/moonshadow95/movie_app/static/js/runtime-main.d70c4e26.js",
+    "runtime-main.js.map": "/moonshadow95/movie_app/static/js/runtime-main.d70c4e26.js.map",
+    "static/js/2.817c1d83.chunk.js": "/moonshadow95/movie_app/static/js/2.817c1d83.chunk.js",
+    "static/js/2.817c1d83.chunk.js.map": "/moonshadow95/movie_app/static/js/2.817c1d83.chunk.js.map",
+    "index.html": "/moonshadow95/movie_app/index.html",
+    "static/css/main.5c2ecc4f.chunk.css.map": "/moonshadow95/movie_app/static/css/main.5c2ecc4f.chunk.css.map",
+    "static/js/2.817c1d83.chunk.js.LICENSE.txt": "/moonshadow95/movie_app/static/js/2.817c1d83.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d70c4e26.js",
+    "static/js/2.817c1d83.chunk.js",
+    "static/css/main.5c2ecc4f.chunk.css",
+    "static/js/main.26994bc7.chunk.js"
+  ]
+}
