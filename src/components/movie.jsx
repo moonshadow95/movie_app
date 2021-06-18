@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import styles from './movie.module.css';
 
-function Movie({ id, year, title, summary, poster, genres }) {
+function Movie({ id, year, title, summary, poster, genres, runtime }) {
   return (
     <Link
       to={{
         pathname: `/movie/${id}`,
-        state: { year, title, summary, poster, genres },
+        state: { year, title, summary, poster, genres, runtime },
       }}
     >
       <div className={styles.movie}>
@@ -37,6 +37,7 @@ Movie.propTypes = {
   summary: PropTypes.string.isRequired,
   poster: PropTypes.string.isRequired,
   genres: PropTypes.string.isRequired,
+  runtime: PropTypes.number,
 };
 
 export default Movie;
